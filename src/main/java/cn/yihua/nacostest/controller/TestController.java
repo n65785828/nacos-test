@@ -33,4 +33,9 @@ public class TestController {
         System.out.println("wait " + sleepSecends + " second");
         return sleepSecends+" second prepare data";
     }
+
+    @GetMapping("/test1")
+    public String test1(){
+        return "test1";
+    }
 }
