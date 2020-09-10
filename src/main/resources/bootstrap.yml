@@ -1,0 +1,13 @@
+#  nacos服务器中配置文件DATA ID = ${prefix}-${spring.profile.active}.${file-extension}
+spring:
+  profiles:
+    active: dev   #${spring.profile.active}
+
+  application:
+    name: nacos-test   #${prefix}
+
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: properties  #${file-extension}
