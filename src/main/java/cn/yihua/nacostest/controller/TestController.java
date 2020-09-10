@@ -34,8 +34,8 @@ public class TestController {
         return sleepSecends+" second prepare data";
     }
 
-    @GetMapping("/test1")
+    @GetMapping("/test2")
     public String test1(){
-        return "test1";
+        return "test2";
     }
 }
